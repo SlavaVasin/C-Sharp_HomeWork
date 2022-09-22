@@ -11,9 +11,13 @@ int rev = 0;
 while (num > 0)
 {
     int dig = num % 10;
+    //Console.WriteLine($"Берём последнее число: {dig}");
     rev = rev * 10 + dig;
+    //Console.WriteLine($"Записываем в реверс: {rev}");
     num = num / 10;
+   // Console.WriteLine($"Будем отделять число от полученого: {num}");
 }
+//Console.WriteLine(rev);
 if (temp == rev) Console.Write("Это палиндром!");
 else Console.Write("Это не палиндром!");
 

@@ -11,7 +11,7 @@ Console.Write("Введите номер строки n: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите номер столбца m: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int[,] matrix = new int[5, 6];
+int[,] matrix = new int[n, m];
 
 
 void FillArray(int[,] matr)
